@@ -17,9 +17,6 @@ Here are some of my notable projects:
 - **[Project 2](https://example.com)**: Brief description of project 2.
 - **[Project 3](https://example.com)**: Brief description of project 3.
 
-## 📸 Portfolio
-Check out my photography portfolio: [Ben's Portfolio](https://example.com)
-
 ## 🌐 Connect with Me
 Feel free to reach out:
 - Email: [bobby@journeyjedi.net](mailto:bobby@journeyjedi.net)
