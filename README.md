@@ -1,1 +1,2 @@
-THis is my Readme file for my GitHub pages site
+This is @bstef Github Pages Repo for dynamic HTML pages
+@copyright Ben Stef
