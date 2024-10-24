@@ -3,107 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ben Stef - Resume</title>
+    <title>Ben Stef</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-image: url('https://images.unsplash.com/photo-1528484701073-2b22dc76649e?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1676557263010-38e1315d5aaa?q=80&w=3473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
             background-size: cover;
-            background-attachment: fixed;
             background-position: center;
-        }
-        .content {
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-attachment: fixed;
         }
         header {
-            background-color: #2c3e50;
-            color: #ecf0f1;
+            background-color: rgba(0, 0, 0, 0.7);
             text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
             padding: 20px;
-            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .profile-img {
+            width: 200px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 1rem;
+            margin-top: 2rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
             border-radius: 5px;
         }
-        h1 {
-            margin: 0;
-        }
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 5px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .job {
-            margin-bottom: 15px;
-        }
-        .job-title {
-            font-weight: bold;
-        }
-        .job-date {
-            font-style: italic;
-            color: #7f8c8d;
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <header>
-            <h1>Ben Stef</h1>
-            <p>Web Developer</p>
-        </header>
-
-        <div class="section">
-            <h2>Summary</h2>
-            <p>Experienced web developer with a passion for creating responsive and user-friendly websites. Skilled in HTML, CSS, JavaScript, and various web development frameworks.</p>
-        </div>
-
-        <div class="section">
-            <h2>Experience</h2>
-            <div class="job">
-                <p class="job-title">Senior Web Developer - Tech Solutions Inc.</p>
-                <p class="job-date">January 2020 - Present</p>
-                <ul>
-                    <li>Lead development of responsive web applications</li>
-                    <li>Collaborate with design team to implement user interfaces</li>
-                    <li>Mentor junior developers and conduct code reviews</li>
-                </ul>
-            </div>
-            <div class="job">
-                <p class="job-title">Web Developer - Digital Creations LLC</p>
-                <p class="job-date">June 2017 - December 2019</p>
-                <ul>
-                    <li>Developed and maintained client websites</li>
-                    <li>Implemented SEO best practices</li>
-                    <li>Assisted in project planning and estimation</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5, CSS3, JavaScript</li>
-                <li>React, Vue.js</li>
-                <li>Node.js, Express</li>
-                <li>Git, GitHub</li>
-                <li>Responsive Web Design</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>Bachelor of Science in Computer Science</strong></p>
-            <p>University of Technology, Graduated 2017</p>
-        </div>
-    </div>
-</body>
-</html>
+    <header>
+        <h1>Jane Doe Photography
