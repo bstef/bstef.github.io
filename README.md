@@ -13,9 +13,9 @@ I'm a passionate photographer and web developer based in New York City. I specia
 
 ## 📂 Projects
 Here are some of my notable projects:
-- **[Project 1](https://example.com)**: Brief description of project 1.
-- **[Project 2](https://example.com)**: Brief description of project 2.
-- **[Project 3](https://example.com)**: Brief description of project 3.
+- **[Resume Website](https://github.com/bstef/react-resume-template)**: Resume Website deployed from GitHub
+- **[Comapny Website](https://github.com/bstef/Peacock-Engineering-Website)**: Deployed a Comapny Website from GitHub Template
+- **[Zoom eetnig SDK AWS Amplify](https://github.com/bstef/meetingsdk-react)**: Deployed the Zoom Meeting SDK on AWS using Amplify
 
 ## 🌐 Connect with Me
 Feel free to reach out:
