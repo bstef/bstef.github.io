@@ -1,31 +1,39 @@
-# 👋 Hi there, I'm Ben Stef!
+# Ben Stef
 
-![Profile Banner](https://avatars.githubusercontent.com/u/4161079?v=4?text=Welcome+to+My+Profile)
+<img align="left" src="profile.jpg" width="180" alt="Ben Stef" />
 
-## 🌟 About Me
-I'm a passionate photographer and web developer based in New York City. I specialize in capturing stunning images and creating beautiful web experiences. 
+## Hero
+IT system engineer focused on reliable systems and real-world fixes. I build dependable infrastructure,
+solve complex problems, and keep systems running with clarity and care. Faith-driven, always learning,
+and convinced there is a tech solution for almost everything.
 
-## 🛠️ Skills
-- Photography 📸
-- HTML, CSS, JavaScript 💻
-- React, Node.js 🚀
-- Graphic Design 🎨
+<br clear="left" />
 
-## 📂 Projects
-Here are some of my notable projects:
-- **[Resume Website](https://github.com/bstef/react-resume-template)**: Resume Website deployed from GitHub
-- **[Comapny Website](https://github.com/bstef/Peacock-Engineering-Website)**: Deployed a Comapny Website from GitHub Template
-- **[Zoom eetnig SDK AWS Amplify](https://github.com/bstef/meetingsdk-react)**: Deployed the Zoom Meeting SDK on AWS using Amplify
+This repo powers my GitHub Pages profile site: https://bstef.github.io
 
-## 🌐 Connect with Me
-Feel free to reach out:
-- Email: [bobby@journeyjedi.net](mailto:bobby@journeyjedi.net)
-- LinkedIn: [Ben Stef LinkedIn](https://linkedin.com/in/bstef)
-- Instagram: [@journeyjedi](https://instagram.com/journeyjedi)
-- Unsplash: [@bstef](https://unsplash.com/@bstef)
+## About
+IT system engineer focused on reliable systems and real-world fixes. I build dependable infrastructure,
+solve complex problems, and keep systems running with clarity and care. Faith-driven, always learning,
+and convinced there is a tech solution for almost everything.
 
-## 📊 GitHub Stats
-![Ben's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bstef&show_icons=true&theme=radical)
+## Focus Areas
+- IT operations and reliability
+- Zoom setup, optimization, and troubleshooting
+- Custom website builds
+- Vibe coding and creative experiments
+
+## Selected Work
+- **Zoom Support**: Setup, optimization, and troubleshooting for reliable meetings and workflows.
+- **Custom Websites**: Fast, modern sites with clear messaging and smooth handoffs.
+- **Troubleshooting**: Root-cause analysis and fixes for stubborn system issues.
+
+## Connect
+- LinkedIn: https://linkedin.com/in/bstef
+- Website: https://bstef.com
+
+## Location
+New York City Metro. Currently employed and open to select collaborations.
+
 ---
 
-© 2024 Ben Stef. All rights reserved.
+© 2026 Ben Stef. All rights reserved.
