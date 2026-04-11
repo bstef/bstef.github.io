@@ -2,7 +2,7 @@
 
 <img align="left" src="profile.jpg" width="180" alt="Ben Stef" />
 
-## Hero
+## 
 IT system engineer focused on reliable systems and real-world fixes. I build dependable infrastructure,
 solve complex problems, and keep systems running with clarity and care. Faith-driven, always learning,
 and convinced there is a tech solution for almost everything.
