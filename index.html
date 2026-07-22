@@ -813,7 +813,7 @@
           <a href="https://blog.benstef.com" target="_blank">Blog</a>
           <a href="https://linkedin.com/in/bstef" target="_blank">LinkedIn</a>
           <a href="https://github.com/bstef" target="_blank">GitHub</a>
-          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle color theme">☾</button>
+          <button class="theme-toggle-btn" id="theme-toggle" data-theme-toggle aria-label="Toggle color theme">☾</button>
         </nav>
       </div>
     </div>
@@ -1085,22 +1085,25 @@
 
   <script>
     (function () {
-      const toggle = document.getElementById('theme-toggle');
+      const toggles = document.querySelectorAll('.theme-toggle-btn');
       const root = document.documentElement;
       const saved = localStorage.getItem('theme');
       if (saved === 'light') root.classList.add('light');
-      function updateIcon() {
-        if (!toggle) return;
-        toggle.textContent = root.classList.contains('light') ? '☀' : '☾';
-        toggle.title = root.classList.contains('light') ? 'Switch to dark' : 'Switch to light';
+      function updateIcons() {
+        toggles.forEach(function (t) {
+          t.textContent = root.classList.contains('light') ? '☀' : '☾';
+          t.title = root.classList.contains('light') ? 'Switch to dark' : 'Switch to light';
+        });
       }
-      if (toggle) {
-        updateIcon();
-        toggle.addEventListener('click', function (e) {
-          e.preventDefault();
-          const isLight = root.classList.toggle('light');
-          localStorage.setItem('theme', isLight ? 'light' : 'dark');
-          updateIcon();
+      if (toggles.length) {
+        updateIcons();
+        toggles.forEach(function (el) {
+          el.addEventListener('click', function (e) {
+            e.preventDefault();
+            const isLight = root.classList.toggle('light');
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+            updateIcons();
+          });
         });
       }
     })();
@@ -1111,9 +1114,13 @@
       <div class="footer-content">
         <div class="footer-left">© 2026 Ben Stef — Engineered with precision</div>
         <div class="footer-links">
-          <a href="https://github.com/bstef" target="_blank">GitHub</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="https://blog.benstef.com" target="_blank">Blog</a>
           <a href="https://linkedin.com/in/bstef" target="_blank">LinkedIn</a>
-          <a href="https://bstef.com" target="_blank">Portfolio</a>
+          <a href="https://github.com/bstef" target="_blank">GitHub</a>
+          <button class="theme-toggle-btn" aria-label="Toggle color theme">☾</button>
         </div>
       </div>
     </div>
