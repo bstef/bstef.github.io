@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meeting Ended - Thank You</title>
+  <link rel="icon" href="profile.jpg" />
+  <link rel="apple-touch-icon" href="profile.jpg" />
   <style>
     body {
       margin: 0;
@@ -27,8 +30,15 @@
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     .checkmark {
@@ -127,12 +137,13 @@
     }
   </style>
 </head>
+
 <body>
   <div class="card">
     <div class="checkmark"></div>
     <h1>Thank You for Joining!</h1>
     <p>Your meeting session has ended. We appreciate your participation and hope it was productive.</p>
-    
+
     <div class="stats">
       <div class="stat-row">
         <span class="stat-label">Session Date</span>
@@ -155,12 +166,13 @@
 
   <script>
     const now = new Date();
-    document.getElementById('date').textContent = now.toLocaleDateString('en-US', { 
-      month: 'long', day: 'numeric', year: 'numeric' 
+    document.getElementById('date').textContent = now.toLocaleDateString('en-US', {
+      month: 'long', day: 'numeric', year: 'numeric'
     });
-    document.getElementById('time').textContent = now.toLocaleTimeString('en-US', { 
-      hour: '2-digit', minute: '2-digit' 
+    document.getElementById('time').textContent = now.toLocaleTimeString('en-US', {
+      hour: '2-digit', minute: '2-digit'
     });
   </script>
 </body>
+
 </html>

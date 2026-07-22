@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ben Stef | Developer & Systems Engineer</title>
+  <link rel="icon" href="profile.jpg" />
+  <link rel="apple-touch-icon" href="profile.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap"
-    rel="stylesheet"
-  />
+    rel="stylesheet" />
   <style>
     :root {
       --bg-dark: #0a0e14;
@@ -49,7 +51,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: 
+      background-image:
         linear-gradient(rgba(78, 205, 196, 0.03) 1px, transparent 1px),
         linear-gradient(90deg, rgba(78, 205, 196, 0.03) 1px, transparent 1px);
       background-size: 50px 50px;
@@ -73,8 +75,15 @@
     }
 
     @keyframes float {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      50% { transform: translate(-50px, 50px) scale(1.1); }
+
+      0%,
+      100% {
+        transform: translate(0, 0) scale(1);
+      }
+
+      50% {
+        transform: translate(-50px, 50px) scale(1.1);
+      }
     }
 
     .orb-2 {
@@ -236,8 +245,16 @@
     }
 
     @keyframes blink {
-      0%, 50% { opacity: 1; }
-      51%, 100% { opacity: 0; }
+
+      0%,
+      50% {
+        opacity: 1;
+      }
+
+      51%,
+      100% {
+        opacity: 0;
+      }
     }
 
     .hero-left p {
@@ -413,8 +430,17 @@
     }
 
     @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.6; transform: scale(0.9); }
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 0.6;
+        transform: scale(0.9);
+      }
     }
 
     .about-content h2 {
@@ -726,6 +752,7 @@
         opacity: 0;
         transform: translateY(30px);
       }
+
       to {
         opacity: 1;
         transform: translateY(0);
@@ -733,6 +760,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="orb-2"></div>
 
@@ -744,6 +772,7 @@
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
+          <a href="https://blog.benstef.com" target="_blank">Blog</a>
           <a href="https://linkedin.com/in/bstef" target="_blank">LinkedIn</a>
           <a href="https://github.com/bstef" target="_blank">GitHub</a>
         </nav>
@@ -768,7 +797,7 @@
             </div>
             <h1>Systems Engineer & Developer</h1>
             <p>
-              Crafting reliable infrastructure and elegant code. I build systems that scale, 
+              Crafting reliable infrastructure and elegant code. I build systems that scale,
               automate the repetitive, and solve complex technical challenges with precision.
             </p>
             <div class="hero-buttons">
@@ -785,14 +814,17 @@
             <div class="code-block">
               <div style="margin-top: 32px;">
                 <div class="code-line"><span class="key">const</span> developer = {</div>
-                <div class="code-line" style="margin-left: 20px;"><span class="key">role:</span> <span class="string">"Systems Engineer"</span>,</div>
-                <div class="code-line" style="margin-left: 20px;"><span class="key">location:</span> <span class="string">"NYC Metro"</span>,</div>
+                <div class="code-line" style="margin-left: 20px;"><span class="key">role:</span> <span
+                    class="string">"Systems Engineer"</span>,</div>
+                <div class="code-line" style="margin-left: 20px;"><span class="key">location:</span> <span
+                    class="string">"NYC Metro"</span>,</div>
                 <div class="code-line" style="margin-left: 20px;"><span class="key">focus:</span> [</div>
                 <div class="code-line" style="margin-left: 40px;"><span class="string">"Infrastructure"</span>,</div>
                 <div class="code-line" style="margin-left: 40px;"><span class="string">"Automation"</span>,</div>
                 <div class="code-line" style="margin-left: 40px;"><span class="string">"Web Development"</span></div>
                 <div class="code-line" style="margin-left: 20px;">],</div>
-                <div class="code-line" style="margin-left: 20px;"><span class="key">available:</span> <span class="value">true</span></div>
+                <div class="code-line" style="margin-left: 20px;"><span class="key">available:</span> <span
+                    class="value">true</span></div>
                 <div class="code-line">};</div>
               </div>
             </div>
@@ -817,13 +849,20 @@
           <div class="about-content">
             <h2>Building Systems That Work</h2>
             <p>
-              I'm an <span class="highlight">IT systems engineer</span> based in the New York City metro area with a passion for creating infrastructure that just works. My approach blends deep technical expertise with practical problem-solving—whether I'm optimizing performance, automating complex workflows, or building custom web applications from scratch.
+              I'm an <span class="highlight">IT systems engineer</span> based in the New York City metro area with a
+              passion for creating infrastructure that just works. My approach blends deep technical expertise with
+              practical problem-solving—whether I'm optimizing performance, automating complex workflows, or building
+              custom web applications from scratch.
             </p>
             <p>
-              <span class="highlight">Faith-driven and perpetually curious</span>, I believe there's a technical solution for almost every challenge. I focus on building systems that aren't just functional, but maintainable, scalable, and thoroughly documented for the teams that inherit them.
+              <span class="highlight">Faith-driven and perpetually curious</span>, I believe there's a technical
+              solution for almost every challenge. I focus on building systems that aren't just functional, but
+              maintainable, scalable, and thoroughly documented for the teams that inherit them.
             </p>
             <p>
-              When I'm not troubleshooting production systems or pushing code, you'll find me experimenting with creative coding projects, diving into new technologies, or collaborating on solutions that push boundaries.
+              When I'm not troubleshooting production systems or pushing code, you'll find me experimenting with
+              creative coding projects, diving into new technologies, or collaborating on solutions that push
+              boundaries.
             </p>
           </div>
         </div>
@@ -835,7 +874,8 @@
         <div class="section-header">
           <h2 class="section-title">Featured Projects</h2>
           <p class="section-subtitle">
-            A curated selection of personal experiments, production tools, and web applications built with modern stacks.
+            A curated selection of personal experiments, production tools, and web applications built with modern
+            stacks.
           </p>
         </div>
         <div class="projects-grid">
@@ -843,7 +883,8 @@
             <span class="project-icon">🛠️</span>
             <h3>System Automation Suite</h3>
             <p>
-              Comprehensive collection of Python and Bash scripts for automating IT operations, monitoring infrastructure health, and streamlining deployment workflows across environments.
+              Comprehensive collection of Python and Bash scripts for automating IT operations, monitoring
+              infrastructure health, and streamlining deployment workflows across environments.
             </p>
             <div class="tech-tags">
               <span class="tech-tag">Python</span>
@@ -857,7 +898,8 @@
             <span class="project-icon">🌐</span>
             <h3>Custom Web Platforms</h3>
             <p>
-              Modern, lightning-fast websites engineered with clean code and performance optimization. From marketing landing pages to full-featured web applications.
+              Modern, lightning-fast websites engineered with clean code and performance optimization. From marketing
+              landing pages to full-featured web applications.
             </p>
             <div class="tech-tags">
               <span class="tech-tag">React</span>
@@ -871,7 +913,8 @@
             <span class="project-icon">📊</span>
             <h3>Infrastructure Monitoring</h3>
             <p>
-              Real-time system monitoring dashboard featuring live metrics visualization, intelligent alerting, and automated incident reporting capabilities.
+              Real-time system monitoring dashboard featuring live metrics visualization, intelligent alerting, and
+              automated incident reporting capabilities.
             </p>
             <div class="tech-tags">
               <span class="tech-tag">Node.js</span>
@@ -885,7 +928,8 @@
             <span class="project-icon">🔧</span>
             <h3>Collaboration Optimization</h3>
             <p>
-              Zoom API integration scripts and custom automation for seamless remote workflows, meeting management, and productivity enhancement tools.
+              Zoom API integration scripts and custom automation for seamless remote workflows, meeting management, and
+              productivity enhancement tools.
             </p>
             <div class="tech-tags">
               <span class="tech-tag">API Integration</span>
@@ -898,7 +942,8 @@
             <span class="project-icon">🎨</span>
             <h3>Creative Coding Lab</h3>
             <p>
-              Experimental playground for generative art, interactive data visualizations, and immersive web experiences using modern graphics APIs.
+              Experimental playground for generative art, interactive data visualizations, and immersive web experiences
+              using modern graphics APIs.
             </p>
             <div class="tech-tags">
               <span class="tech-tag">Canvas API</span>
@@ -912,7 +957,8 @@
             <span class="project-icon">⚡</span>
             <h3>DevOps Toolkit</h3>
             <p>
-              Containerized development environments, robust CI/CD pipelines, and infrastructure automation enabling rapid iteration and reliable deployments.
+              Containerized development environments, robust CI/CD pipelines, and infrastructure automation enabling
+              rapid iteration and reliable deployments.
             </p>
             <div class="tech-tags">
               <span class="tech-tag">Docker</span>
@@ -1044,4 +1090,5 @@
     });
   </script>
 </body>
+
 </html>
