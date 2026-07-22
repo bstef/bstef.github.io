@@ -1,39 +1,43 @@
-# Ben Stef
+# Ben Stef — Personal Website
 
-<img align="left" src="profile.jpg" width="180" alt="Ben Stef" />
+![Ben Stef](profile.jpg)
 
-## 
-IT system engineer focused on reliable systems and real-world fixes. I build dependable infrastructure,
-solve complex problems, and keep systems running with clarity and care. Faith-driven, always learning,
-and convinced there is a tech solution for almost everything.
+This repository contains the static sources for my personal website, published at: https://bstef.github.io
 
-<br clear="left" />
+Purpose
+- Serve a simple, fast personal portfolio and contact page.
+- Demonstrate systems engineering and web projects.
 
-This repo powers my GitHub Pages profile site: https://bstef.github.io
+Quick preview (local)
+1. Clone the repo:
 
-## About
-IT system engineer focused on reliable systems and real-world fixes. I build dependable infrastructure,
-solve complex problems, and keep systems running with clarity and care. Faith-driven, always learning,
-and convinced there is a tech solution for almost everything.
+	git clone https://github.com/bstef/bstef.github.io.git
+	cd bstef.github.io
 
-## Focus Areas
-- IT operations and reliability
-- Zoom setup, optimization, and troubleshooting
-- Custom website builds
-- Vibe coding and creative experiments
+2. Preview locally (Python 3):
 
-## Selected Work
-- **Zoom Support**: Setup, optimization, and troubleshooting for reliable meetings and workflows.
-- **Custom Websites**: Fast, modern sites with clear messaging and smooth handoffs.
-- **Troubleshooting**: Root-cause analysis and fixes for stubborn system issues.
+	python3 -m http.server 8000
+	# then open http://localhost:8000 in your browser
 
-## Connect
+Development notes
+- Pages are plain HTML and CSS (no build step). Edit `index.html` and supporting pages directly.
+- Assets like `profile.jpg` live at the repo root.
+- Theme toggle and small interactive scripts are in `index.html`.
+
+Deploying
+- This repo is served by GitHub Pages from the `main` branch — pushing to `main` publishes changes.
+
+Suggested workflow
+- Create a branch for larger changes, test locally, open a PR, then merge to `main`.
+
+Adding a favicon
+- The site currently uses `profile.jpg` as the favicon. For best browser support, add `favicon.ico` and `favicon-32x32.png` and update the `<head>` link tags.
+
+Contact
 - LinkedIn: https://linkedin.com/in/bstef
-- Website: https://bstef.com
+- Portfolio: https://bstef.com
 
-## Location
-New York City Metro. Currently employed and open to select collaborations.
+License & copyright
+- © 2026 Ben Stef. All rights reserved.
 
----
-
-© 2026 Ben Stef. All rights reserved.
+If you'd like a more detailed CONTRIBUTING guide, automated preview branch (Netlify/Vercel) setup, or a small build pipeline, I can add that next.
