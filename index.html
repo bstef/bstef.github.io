@@ -142,20 +142,20 @@
       gap: 20px;
     }
 
-    .theme-toggle {
+    .theme-toggle-btn {
       background: transparent;
-      border: 0;
+      border: none;
       color: var(--text-muted);
       font-size: 18px;
-      cursor: pointer;
-      padding: 8px;
+      padding: 6px 10px;
       border-radius: 8px;
-      transition: background 0.15s ease, color 0.15s ease;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: 8px;
     }
-
-    .theme-toggle:hover {
-      background: rgba(255, 255, 255, 0.03);
-      color: var(--accent-teal);
+    .theme-toggle-btn:hover { color: var(--accent-teal); background: rgba(255,255,255,0.02); }
     }
 
     .logo {
@@ -825,8 +825,8 @@
           <a href="https://blog.benstef.com" target="_blank">Blog</a>
           <a href="https://linkedin.com/in/bstef" target="_blank">LinkedIn</a>
           <a href="https://github.com/bstef" target="_blank">GitHub</a>
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle color theme">☾</button>
         </nav>
-        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle color theme">☾</button>
       </div>
     </div>
   </header>
