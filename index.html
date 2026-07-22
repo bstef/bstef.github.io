@@ -813,7 +813,8 @@
           <a href="https://blog.benstef.com" target="_blank">Blog</a>
           <a href="https://linkedin.com/in/bstef" target="_blank">LinkedIn</a>
           <a href="https://github.com/bstef" target="_blank">GitHub</a>
-          <button class="theme-toggle-btn" id="theme-toggle" data-theme-toggle aria-label="Toggle color theme">☾</button>
+          <button class="theme-toggle-btn" id="theme-toggle" data-theme-toggle
+            aria-label="Toggle color theme">☾</button>
         </nav>
       </div>
     </div>
@@ -1083,7 +1084,27 @@
     </section>
   </main>
 
+  
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">© 2026 Ben Stef — Engineered with precision</div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="https://blog.benstef.com" target="_blank">Blog</a>
+          <a href="https://linkedin.com/in/bstef" target="_blank">LinkedIn</a>
+          <a href="https://github.com/bstef" target="_blank">GitHub</a>
+          <button class="theme-toggle-btn" aria-label="Toggle color theme">☾</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <script>
+    // Theme toggle initialization (binds all .theme-toggle-btn after footer exists)
     (function () {
       const toggles = document.querySelectorAll('.theme-toggle-btn');
       const root = document.documentElement;
@@ -1107,26 +1128,7 @@
         });
       }
     })();
-  </script>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-left">© 2026 Ben Stef — Engineered with precision</div>
-        <div class="footer-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="https://blog.benstef.com" target="_blank">Blog</a>
-          <a href="https://linkedin.com/in/bstef" target="_blank">LinkedIn</a>
-          <a href="https://github.com/bstef" target="_blank">GitHub</a>
-          <button class="theme-toggle-btn" aria-label="Toggle color theme">☾</button>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script>
     // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
