@@ -1,43 +1,20 @@
-# Ben Stef — Personal Website
+# Ben Stef
 
-![Ben Stef](profile.jpg)
+<img src="profile.jpg" width="120" alt="Ben Stef" style="border-radius:8px; float:left; margin-right:16px;" />
 
-This repository contains the static sources for my personal website, published at: https://bstef.github.io
+Ben Stef — Systems Engineer & Developer
 
-Purpose
-- Serve a simple, fast personal portfolio and contact page.
-- Demonstrate systems engineering and web projects.
+I design and operate dependable infrastructure, automate repetitive processes, and build practical web tools. I focus on reliability, clarity, and pragmatic solutions that help teams move faster and more safely.
 
-Quick preview (local)
-1. Clone the repo:
+This repository contains the static HTML for my personal bio site, published at https://bstef.github.io.
 
-	git clone https://github.com/bstef/bstef.github.io.git
-	cd bstef.github.io
-
-2. Preview locally (Python 3):
-
-	python3 -m http.server 8000
-	# then open http://localhost:8000 in your browser
-
-Development notes
-- Pages are plain HTML and CSS (no build step). Edit `index.html` and supporting pages directly.
-- Assets like `profile.jpg` live at the repo root.
-- Theme toggle and small interactive scripts are in `index.html`.
-
-Deploying
-- This repo is served by GitHub Pages from the `main` branch — pushing to `main` publishes changes.
-
-Suggested workflow
-- Create a branch for larger changes, test locally, open a PR, then merge to `main`.
-
-Adding a favicon
-- The site currently uses `profile.jpg` as the favicon. For best browser support, add `favicon.ico` and `favicon-32x32.png` and update the `<head>` link tags.
-
-Contact
+Quick links
 - LinkedIn: https://linkedin.com/in/bstef
 - Portfolio: https://bstef.com
+- GitHub: https://github.com/bstef
 
-License & copyright
-- © 2026 Ben Stef. All rights reserved.
+Notes for maintainers
+- The site is plain HTML/CSS; update `index.html` for content changes.
+- For best favicon support, add `favicon.ico` and `favicon-32x32.png` and update the `<head>` tags.
 
-If you'd like a more detailed CONTRIBUTING guide, automated preview branch (Netlify/Vercel) setup, or a small build pipeline, I can add that next.
+© 2026 Ben Stef. All rights reserved.
